@@ -1,0 +1,49 @@
+.navbar {
+  width: 60%;
+  
+}
+.container{
+  margin-top: 38px;
+}
+.title{
+  font-size: 20px;
+  font-weight: bold;
+}
+.detailsContainer{
+  display: -webkit-box;
+  border-bottom: solid 1px #ededed;
+  width: 90%;
+}
+.detailsContainer2{
+  display: -webkit-box;
+  width: 90%;
+}
+.content1{
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 3.81;
+  width: 150px;
+}
+.content2{
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 3.81;
+}
+.buttonDiv{
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.sizeButton{
+  width: 36px;
+  height: 36px;
+  border: solid 1px #a3a3a3;
+  background-color: #fff;
+  border-radius: 100px;
+  text-align: center;
+  line-height: 34px;
+}
+.contentNormal{
+  margin-top: 20px;
+}

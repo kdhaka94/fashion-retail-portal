@@ -1,0 +1,43 @@
+.container {
+  border-collapse: collapse;
+  border-radius: 8px;
+  background-color: #fff;
+  width: 100%;
+}
+
+.container td {
+  padding: 16px 40px;
+  border-bottom: solid 1px #ededed;
+}
+
+.container > tr {
+  width: 100%;
+  display: table;
+  table-layout: fixed; /* optional, for equal spacing */
+  border-collapse: collapse;
+}
+
+.container > tr > td {
+  /* width: 21.8%; */
+  display: table-cell;
+    vertical-align: middle;
+}
+.footerRow > td {
+  border-bottom: transparent;
+}
+.footerRow {
+  background-color: #efeffa;
+}
+
+.centerlize {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContainer{
+  padding: 0 60px;
+}
+.cell{
+  font-size: 14px !important;
+}

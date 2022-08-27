@@ -1,0 +1,24 @@
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(247, 250, 255);
+  border-radius: 16px;
+}
+
+.closeIconContainer {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 24px;
+}
+
+.modalBody {
+  padding: 0px;
+}
+
+.modalActions {
+  padding: 30px;
+  border-top: solid 1px #cbcbcb;
+}

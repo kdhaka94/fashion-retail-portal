@@ -1,0 +1,53 @@
+.containerTop {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 37px 0px 16px 24px;
+}
+
+.header{
+  font-size: 20px;
+}
+.bodyContainer{
+  padding: 0px 24px 96px 24px;
+  background-color: #fff;
+  border-bottom: solid 1px #cbcbcb;
+  border-radius: 0px 0px 16px 16px;
+}
+
+
+.container {
+  border-collapse: collapse;
+  border-radius: 8px;
+  background-color: #fff;
+  width: 100%;
+}
+
+.container td {
+  padding: 16px 40px;
+  border-bottom: solid 1px #ededed;
+}
+
+.footerRow > td {
+  border-bottom: transparent;
+}
+.footerRow {
+  background-color: #efeffa;
+}
+
+.centerlize {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContainer{
+  padding: 0 60px;
+}
+.cell{
+  font-size: 14px !important;
+}
+.na{
+  width: 91px;
+  height: 32px;
+}
